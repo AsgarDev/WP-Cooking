@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>oProfile</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="">
+
+  <div class="wrapper">
+
+    <header class="header">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a href="#" class="navbar-item">
+                <span class="icon">
+                  <i class="fa fa-cutlery" aria-hidden="true"></i>
+                </span>
+                oCooking
+              </a>
+          </div>
+
+          <div class="navbar-menu">
+              <div class="navbar-start">
+                  <a href="#" class="navbar-item">
+                    Au hasard
+                  </a>
+                  <a href="#" class="navbar-item">
+                    Recettes
+                  </a>
+                </div>
+
+                <div class="navbar-end">
+                    <a href="#" class="navbar-item">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="navbar-item">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="navbar-item toggle-menu">
+                      <i class="fa fa-bars" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="columns">
+        <sidebar class="sidebar column">
+          <h1 class="title is-size-1">oCooking</h1>
+          <p class="subtitle is-size-5">Se faire plaisir tous les jours</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A necessitatibus, est soluta aut repellat ipsa ab fugit totam accusantium mollitia sequi dignissimos voluptates saepe voluptatum quaerat eveniet quod quas ullam?
+          </p>
+          <hr>
+          <section class="sidebar__blog">
+            <h4 class="subtitle is-size-6">Blog</h4>
+            <ul>
+            </ul>
+          </section>
+          <section class="sidebar__taxonomy">
+            <h4 class="subtitle is-size-6">Types de recettes</h4>
+            <ul>
+              <li>Plats de résistances</li>
+              <li>Encas</li>
+              <li>Petit dej'</li>
+              <li>Petit dej'</li>
+            </ul>
+          </section>
+          <form class="sidebar__form">
+            <h4 class="subtitle is-size-6">Proposer une recette</h4>
+            <div class="field">
+              <label class="label">Recette</label>
+              <div class="control has-icons-left">
+                <input class="input" type="text" placeholder="Recette" value="bulma">
+                <span class="icon is-small is-left">
+                  <i class="fa fa-cutlery"></i>
+                </span>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left">
+                <input class="input" type="email" placeholder="Votre Email" value="bulma">
+                <span class="icon is-small is-left">
+                  <i class="fa fa-envelope"></i>
+                </span>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Instructions</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Instructions"></textarea>
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <label class="checkbox">
+                  <input type="checkbox">
+                  Je suis d'accord pour que cette recette soit publiée sur oCooking
+                </label>
+              </div>
+            </div>
+            <div class="field is-grouped">
+              <div class="control">
+                <input type="submit" class="button is-primary" value="Proposer">
+              </div>
+            </div>
+          </form>
+        </sidebar>
+        <main class="main column is-two-thirds">
+          <article class="recipe">
+            <header class="columns">
+              <div class="recipe__title column is-two-thirds">
+                <h2 class="title is-size-3">
+                  Sandwich de saison
+                </h2>
+                <p class="subtitle is-size-4">
+                  Préparée par Jean Bonbeurre
+                </p>
+              </div>
+              <div class="recipe__meta column">
+                <ul>
+                  <li><strong>Préparation</strong>: 30 minutes</li>
+                  <li><strong>Cuisson</strong>: 1h30 min.</li>
+                  <li><strong>Prix</strong>: 5€/pers.</li>
+                </ul>
+              </div>
+            </header>
+            <figure class="image">
+              <img src="images/burger.jpg">
+            </figure>
+            <section class="recipe__summary columns">
+              <div class="column is-two-thirds">
+                <h3 class="title is-size-4">
+                  La recette en résumé
+                </h3>
+                <div class="recipe__content">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt provident eos tenetur deleniti cupiditate repellendus tempora quibusdam, quam incidunt accusantium.
+                </div>
+              </div>
+              <aside class="recipe__ingredients column">
+                <h3 class="subtitle is-size-5">Ingredients</h3>
+                <a href="#" class="tag is-dark is-rounded">Tag label</a>
+                <a href="#" class="tag is-dark is-rounded">Tag label</a>
+                <a href="#" class="tag is-dark is-rounded">Tag label</a>
+                <a href="#" class="tag is-dark is-rounded">Tag label</a>
+                <a href="#" class="tag is-dark is-rounded">Tag label</a>
+              </aside>
+            </section>
+            <footer class="recipe__footer level">
+              <div class="level-left">
+                <a class="button is-primary is-outlined">
+                  <span class="icon">
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                  </span>
+                  Lire la recette
+                </a>
+              </div>
+              <div class="level-right">
+                <strong>Recette visible dans </strong>
+                <a href="#" class="button">Encas</a>
+              </div>
+            </footer>
+          </article>
+        </main>
+
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>oCooking</strong> par <a href="https://oclock.io" class="has-text-primary">O'clock</a>. La meilleure source pour se régaler.
+        </p>
+        <p>
+          <a href="#" class="has-text-primary">
+            <span class="icon">
+                <i class="fa fa-cutlery" aria-hidden="true"></i>
+              </span>
+              oCooking 2019
+          </a>
+        </p>
+      </div>
+    </footer>
+
+  </div>
+
+  <aside class="menu">
+    <p class="menu-label toggle-menu has-text-primary is-size-4">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </p>
+    <ul class="menu-list">
+      <li><a>item de menu</a></li>
+      <li><a>Recette</a></li>
+      <li><a>Plats de résistance</a></li>
+      <li><a>Desserts</a></li>
+    </ul>
+  </aside>
+  <script src="js/app.js"></script>
+</body>
+</html>

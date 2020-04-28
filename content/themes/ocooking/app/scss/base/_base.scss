@@ -1,0 +1,21 @@
+html, body {
+    font-size: 14px;
+    background-color: $white-ter;
+}
+
+body {
+    &.menu-is-open {
+
+        .menu {
+            display: block;
+        }
+
+        .wrapper {
+            filter: blur(5px);
+        }
+    }
+
+    .wrapper {
+        transition: all $duration-slow;
+    }
+}
